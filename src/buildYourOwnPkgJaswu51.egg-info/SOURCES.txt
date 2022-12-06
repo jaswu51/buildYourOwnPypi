@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/buildYourOwnPkgJaswu51/__init__.py
+src/buildYourOwnPkgJaswu51/plotlove.py
+src/buildYourOwnPkgJaswu51.egg-info/PKG-INFO
+src/buildYourOwnPkgJaswu51.egg-info/SOURCES.txt
+src/buildYourOwnPkgJaswu51.egg-info/dependency_links.txt
+src/buildYourOwnPkgJaswu51.egg-info/top_level.txt

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: buildYourOwnPkgJaswu51
+Version: 0.0.1
+Summary: A small example package
+Author: jaswu51
+Author-email: jasminewuyidata@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+make sure your build file is latest:
+```
+python3 -m pip install --upgrade build 
+```
+```
+python3 -m build
+```
+```
+python3 -m twine upload --repository testpypi dist/*
+```
+```
+from buildYourOwnPkgJaswu51 import plotlove
+```
+reference tutorial: https://www.youtube.com/watch?v=v4bkJef4W94&t=118s
+
+
