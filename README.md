@@ -9,6 +9,9 @@ python3 -m build
 python3 -m twine upload --repository testpypi dist/*
 ```
 ```
+python3 -m pip install -i https://test.pypi.org/simple/ buildYourOwnPkgJaswu51
+```
+```
 python3 -m buildYourOwnPkgJaswu51.plotlove
 ```
 reference tutorial: https://www.youtube.com/watch?v=v4bkJef4W94&t=118s
